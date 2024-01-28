@@ -22,14 +22,14 @@ function actualizarTabla(){
         var celdaIdentificacion= fila.insertCell(1);
         var celdaSexo = fila.insertCell(2);
         var celdaEdad = fila.insertCell(3);
-        var celdaPulsaciones = fila.insertCell(4)
+
 
     
         celdaNombre.textContent = estudiante.nombre
         celdaIdentificacion.textContent = estudiante.identificacion
         celdaSexo.textContent = estudiante.sexo
         celdaEdad.textContent = estudiante.edad
-        celdaPulsaciones.textContent = "Masculino" == estudiante.sexo ? (220-estudiante.edad) : (226-estudiante.edad)
+
 
       });
 }
